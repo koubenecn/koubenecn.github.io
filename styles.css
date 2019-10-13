@@ -30,7 +30,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.box .row.content { background: navy; }
+.box .row.content { }
 .header p, .footer p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
