@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;          /* instead of using 100% all over, use viewport units once */
+  background-size: cover;
+  background: white;
+}
+.box .row.content,
+.content .one-fifth.column {
+  flex: 1;                /* fill the space equal, no matter row or column direction */
+  display: flex;
+  padding: 1em;
+}
+.vert-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box .row.header,
+.box .row.footer { 
+  color: white; 
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.box .row.content { background: navy; }
+.header p, .footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: black;
+  margin: 1em;  
+}
+.column h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+  margin: 1em auto;
+}
+
+.yellow-back { background: #ffe001; }
+.red-back { background: #e31e25; }
+.green-back { background: #66af45; }
+.purple-back { background: #954294; }
+
+ul {
+  z-index: 1;
+  color: white;
+  border-left: 1px solid white;
+  list-style-type: none;
+}
+ul:hover {
+  border-left: 1px solid yellow;
+}
+li:hover {
+  color: yellow;
+}
+li:hover:before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 1em;
+  margin-left: -0.5em;
+  border-left: 1px solid yellow;
+}
+
+@media screen and (max-width: 600px) {
+  /* smaller screens */
+  .box .row.content {
+    flex-direction: column;   /* by simply swap direction it work on smaller screen */
+  }
+}
