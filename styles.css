@@ -38,7 +38,7 @@ a {
   margin: 1em;  
 }
 .about p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 /*  color: #fff !important;*/
 }
 .column {
