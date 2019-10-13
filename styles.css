@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  padding: 0;
 }
 .box {
   display: flex;
@@ -12,12 +13,13 @@ html, body {
 .content .one-fifth.column {
   flex: 1;                /* fill the space equal, no matter row or column direction */
   display: flex;
-  padding: 1em;
+  padding: 0em;
 }
 .vert-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 1em;
 }
 .box .row.header,
 .box .row.footer { 
@@ -34,6 +36,11 @@ a {
   color: black;
   margin: 1em;  
 }
+.column {
+  margin: 0;
+  padding: 0;
+  background: hsl(var(--h), 80%, 33%);
+}
 .column h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -41,12 +48,8 @@ a {
   margin: 1em auto;
 }
 
-.yellow-back { background: #ffe001; }
-.red-back { background: #e31e25; }
-.green-back { background: #66af45; }
-.purple-back { background: #954294; }
-
 ul {
+  font-family: 'Montserrat', sans-serif;
   z-index: 1;
   color: white;
   border-left: 1px solid white;
