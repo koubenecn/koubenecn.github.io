@@ -36,6 +36,9 @@ a {
   color: black;
   margin: 1em;  
 }
+.about p {
+    color: white !important;
+}
 .column {
   margin: 0;
   padding: 0;
