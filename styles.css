@@ -72,7 +72,7 @@ li:hover:before {
 }
 
 p {
-
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
