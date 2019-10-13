@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 
 }
+
+.about p {
+  font-family: 'Montserrat', sans-serif;
+}
 .box {
   display: flex;
   flex-direction: column;
@@ -36,10 +40,6 @@ a {
   font-weight: 300;
   color: black;
   margin: 1em;  
-}
-.about p {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
 }
 .column {
   margin: 0;
