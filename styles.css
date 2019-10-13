@@ -3,9 +3,6 @@ html, body {
   padding: 0;
 
 }
-p {
-  font-family: 'Montserrat', sans-serif;
-}
 .box {
   display: flex;
   flex-direction: column;
@@ -72,6 +69,10 @@ li:hover:before {
   height: 1em;
   margin-left: -0.5em;
   border-left: 1px solid yellow;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
