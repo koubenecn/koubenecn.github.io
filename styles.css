@@ -24,7 +24,7 @@ html, body {
 }
 .box .row.header,
 .box .row.footer { 
-/*  color: white; */
+  color: black; 
 }
 a {
   text-decoration: none;
