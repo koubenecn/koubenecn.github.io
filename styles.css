@@ -24,7 +24,7 @@ html, body {
 }
 .box .row.header,
 .box .row.footer { 
-  color: black; 
+/*  color: black; */
 }
 a {
   text-decoration: none;
@@ -72,7 +72,7 @@ li:hover:before {
 }
 
 p {
-  color: white !important;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
