@@ -9,7 +9,6 @@ html, body {
   flex-direction: column;
   height: 100vh;          /* instead of using 100% all over, use viewport units once */
   background-size: cover;
-  background-color: white;
 }
 .box .row.content,
 .content .one-fifth.column {
