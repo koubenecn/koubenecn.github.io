@@ -48,6 +48,11 @@
         const root = document.documentElement;
         const display = document.querySelector('.display');
 
+        window.addEventListener('load', (event) => {
+          root.style.setProperty('--h', 21);
+          display.innerHTML = `HSL(${x = null ? 255 : x}, 80%, 33%)`;
+        });
+        
         root.addEventListener('mousemove', e => {
           let x = e.clientX / innerWidth,
           y = e.clientY / innerWidth;
