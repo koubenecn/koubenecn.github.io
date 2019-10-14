@@ -34,7 +34,7 @@ a {
 .header p, .footer p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-/*  color: black;*/
+  color: white;
   margin: 1em;  
 }
 .column {
