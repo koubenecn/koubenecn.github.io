@@ -47,6 +47,10 @@
     <script>
         const root = document.documentElement;
         const display = document.querySelector('.display');
+        
+        // set initial value...
+        display.innerHTML = `HSL(160, 100%, 30%)`;
+        //
 
         root.addEventListener('mousemove', e => {
           let x = e.clientX / innerWidth,
