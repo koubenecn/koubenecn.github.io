@@ -24,7 +24,7 @@ html, body {
 }
 .box .row.header,
 .box .row.footer { 
-  color: white; 
+/*  color: white; */
 }
 a {
   text-decoration: none;
@@ -34,7 +34,7 @@ a {
 .header p, .footer p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  color: black;
+/*  color: black;*/
   margin: 1em;  
 }
 .column {
